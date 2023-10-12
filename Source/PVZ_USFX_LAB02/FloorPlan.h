@@ -21,5 +21,11 @@ class PVZ_USFX_LAB02_API IFloorPlan
 	GENERATED_BODY()
 
 	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
+
 public:
+	virtual void SetSwimmingPool(FString SwimmingPool) = 0;
+	virtual void SetLobbyArea(FString LobbyArea) = 0;
+	virtual void SetRooms(FString Rooms) = 0;
+	virtual void SetRestaurants(FString Restaurants) = 0;
+
 };

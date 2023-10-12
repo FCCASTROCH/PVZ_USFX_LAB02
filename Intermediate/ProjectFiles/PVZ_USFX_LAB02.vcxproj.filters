@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PVZ_USFX_LAB02.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{3B337D8B-2B11-4FE9-BC76-65ACDEF8DAF1}</UniqueIdentifier>
+      <UniqueIdentifier>{F124CBE9-7370-4119-882B-A954F1749155}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PVZ_USFX_LAB02.Target.cs">
       <Filter>Source</Filter>
@@ -16,7 +16,7 @@
     <None Include="..\..\.ignore" />
     <None Include="..\..\PVZ_USFX_LAB02.code-workspace" />
     <Filter Include="Config">
-      <UniqueIdentifier>{FF85D662-84AC-4AE0-B1F2-848B32E213C6}</UniqueIdentifier>
+      <UniqueIdentifier>{6368AD0F-EDE4-427C-A2A5-A85545B4123B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -34,7 +34,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PVZ_USFX_LAB02">
-      <UniqueIdentifier>{DAC4ADA3-89AE-4F24-81D3-8E74E6A84393}</UniqueIdentifier>
+      <UniqueIdentifier>{59B6EABA-CD35-4563-809A-74C189049EE0}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\PVZ_USFX_LAB02\AbonoMagico.cpp">
       <Filter>Source\PVZ_USFX_LAB02</Filter>
@@ -54,6 +54,12 @@
     <ClInclude Include="..\..\Source\PVZ_USFX_LAB02\CustomSceneComponent.h">
       <Filter>Source\PVZ_USFX_LAB02</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\PVZ_USFX_LAB02\FloorPlan.cpp">
+      <Filter>Source\PVZ_USFX_LAB02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PVZ_USFX_LAB02\FloorPlan.h">
+      <Filter>Source\PVZ_USFX_LAB02</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\PVZ_USFX_LAB02\Girasol.cpp">
       <Filter>Source\PVZ_USFX_LAB02</Filter>
     </ClCompile>
@@ -70,6 +76,18 @@
       <Filter>Source\PVZ_USFX_LAB02</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\PVZ_USFX_LAB02\Lanzaguisantes.h">
+      <Filter>Source\PVZ_USFX_LAB02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PVZ_USFX_LAB02\Lodging.cpp">
+      <Filter>Source\PVZ_USFX_LAB02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PVZ_USFX_LAB02\Lodging.h">
+      <Filter>Source\PVZ_USFX_LAB02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PVZ_USFX_LAB02\LodgingBuilder.cpp">
+      <Filter>Source\PVZ_USFX_LAB02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PVZ_USFX_LAB02\LodgingBuilder.h">
       <Filter>Source\PVZ_USFX_LAB02</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\PVZ_USFX_LAB02\MegaSol.cpp">
