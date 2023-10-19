@@ -14,7 +14,7 @@ AGunAdapter::AGunAdapter()
 // Called when the game starts or when spawned
 void AGunAdapter::BeginPlay()
 {
-	Super::BeginPlay();
+	
 	//Spawn the Weapon
 	Weapon = GetWorld()->SpawnActor<AGun>(AGun::StaticClass());
 
@@ -23,7 +23,7 @@ void AGunAdapter::BeginPlay()
 // Called every frame
 void AGunAdapter::Tick(float DeltaTime)
 {
-	Super::Tick(DeltaTime);
+
 
 }
 
