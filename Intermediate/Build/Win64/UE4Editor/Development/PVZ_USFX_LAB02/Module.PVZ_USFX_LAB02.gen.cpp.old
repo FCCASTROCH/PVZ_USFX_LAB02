@@ -21,7 +21,6 @@
 #include "C:/Users/HP/Documents/GitHub/PVZ_USFX_LAB02/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/RandomMovement.gen.cpp"
 #include "C:/Users/HP/Documents/GitHub/PVZ_USFX_LAB02/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Repetidora.gen.cpp"
 #include "C:/Users/HP/Documents/GitHub/PVZ_USFX_LAB02/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/SlingShot.gen.cpp"
-#include "C:/Users/HP/Documents/GitHub/PVZ_USFX_LAB02/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/StarShipOperationsOfficer.gen.cpp"
 #include "C:/Users/HP/Documents/GitHub/PVZ_USFX_LAB02/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/Zombie.gen.cpp"
 #include "C:/Users/HP/Documents/GitHub/PVZ_USFX_LAB02/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/ZombieComun.gen.cpp"
 #include "C:/Users/HP/Documents/GitHub/PVZ_USFX_LAB02/Intermediate/Build/Win64/UE4Editor/Inc/PVZ_USFX_LAB02/ZombieCono.gen.cpp"
