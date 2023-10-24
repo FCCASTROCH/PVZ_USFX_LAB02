@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodeGunAdapter() {}
 	PVZ_USFX_LAB02_API UClass* Z_Construct_UClass_AGunAdapter();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_PVZ_USFX_LAB02();
+	PVZ_USFX_LAB02_API UClass* Z_Construct_UClass_AGun_NoRegister();
+	PVZ_USFX_LAB02_API UClass* Z_Construct_UClass_USlingShot_NoRegister();
 // End Cross Module References
 	void AGunAdapter::StaticRegisterNativesAGunAdapter()
 	{
@@ -31,6 +33,12 @@ void EmptyLinkFunctionForGeneratedCodeGunAdapter() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Weapon_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Weapon;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+		static const UE4CodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -44,6 +52,18 @@ void EmptyLinkFunctionForGeneratedCodeGunAdapter() {}
 		{ "ModuleRelativePath", "GunAdapter.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGunAdapter_Statics::NewProp_Weapon_MetaData[] = {
+		{ "ModuleRelativePath", "GunAdapter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGunAdapter_Statics::NewProp_Weapon = { "Weapon", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGunAdapter, Weapon), Z_Construct_UClass_AGun_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGunAdapter_Statics::NewProp_Weapon_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGunAdapter_Statics::NewProp_Weapon_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGunAdapter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGunAdapter_Statics::NewProp_Weapon,
+	};
+		const UE4CodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_AGunAdapter_Statics::InterfaceParams[] = {
+			{ Z_Construct_UClass_USlingShot_NoRegister, (int32)VTABLE_OFFSET(AGunAdapter, ISlingShot), false },
+		};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AGunAdapter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AGunAdapter>::IsAbstract,
 	};
@@ -53,12 +73,12 @@ void EmptyLinkFunctionForGeneratedCodeGunAdapter() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
-		nullptr,
+		Z_Construct_UClass_AGunAdapter_Statics::PropPointers,
+		InterfaceParams,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_AGunAdapter_Statics::PropPointers),
+		UE_ARRAY_COUNT(InterfaceParams),
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_AGunAdapter_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AGunAdapter_Statics::Class_MetaDataParams))
 	};
@@ -71,7 +91,7 @@ void EmptyLinkFunctionForGeneratedCodeGunAdapter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGunAdapter, 1168265066);
+	IMPLEMENT_CLASS(AGunAdapter, 2836331998);
 	template<> PVZ_USFX_LAB02_API UClass* StaticClass<AGunAdapter>()
 	{
 		return AGunAdapter::StaticClass();

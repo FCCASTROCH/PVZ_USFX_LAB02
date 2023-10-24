@@ -27,3 +27,9 @@ void AGunAdapter::Tick(float DeltaTime)
 
 }
 
+void AGunAdapter::Sling()
+{
+	//Fire the Weapon
+	Weapon->Fire();
+}
+

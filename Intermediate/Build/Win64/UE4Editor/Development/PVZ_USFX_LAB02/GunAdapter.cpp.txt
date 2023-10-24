@@ -1,3 +1,7 @@
 C:\Users\HP\Documents\GitHub\PVZ_USFX_LAB02\Intermediate\Build\Win64\UE4Editor\Development\PVZ_USFX_LAB02\Definitions.PVZ_USFX_LAB02.h
 C:\Users\HP\Documents\GitHub\PVZ_USFX_LAB02\Source\PVZ_USFX_LAB02\GunAdapter.h
+C:\Users\HP\Documents\GitHub\PVZ_USFX_LAB02\Source\PVZ_USFX_LAB02\SlingShot.h
+C:\Users\HP\Documents\GitHub\PVZ_USFX_LAB02\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\SlingShot.generated.h
 C:\Users\HP\Documents\GitHub\PVZ_USFX_LAB02\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\GunAdapter.generated.h
+C:\Users\HP\Documents\GitHub\PVZ_USFX_LAB02\Source\PVZ_USFX_LAB02\Gun.h
+C:\Users\HP\Documents\GitHub\PVZ_USFX_LAB02\Intermediate\Build\Win64\UE4Editor\Inc\PVZ_USFX_LAB02\Gun.generated.h

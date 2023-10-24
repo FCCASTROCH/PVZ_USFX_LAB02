@@ -4,10 +4,12 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "GunAdapter.generated.h"
 #include "SlingShot.h"
-UCLASS()
+#include "GunAdapter.generated.h"
+
+
 class AGun;
+UCLASS()
 class PVZ_USFX_LAB02_API AGunAdapter : public AActor, public ISlingShot
 {
 	GENERATED_BODY()
