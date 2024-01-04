@@ -14,8 +14,7 @@ void AStarShipCrewMember::TurnLightsOut()
 {
 	// Print lights out string
 	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow,
-		FString::Printf(TEXT("%s taps,taps lights out."),
-			*CrewTitle()));
+		FString::Printf(TEXT("%s taps,taps lights out."),*CrewTitle()));
 }
 void AStarShipCrewMember::HeaveOutTriceUp()
 {

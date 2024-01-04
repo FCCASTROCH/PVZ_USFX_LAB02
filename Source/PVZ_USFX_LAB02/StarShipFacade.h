@@ -4,8 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "StarShipCrewMember.h"
 #include "StarShipFacade.generated.h"
-
 UCLASS()
 class PVZ_USFX_LAB02_API AStarShipFacade : public AActor
 {

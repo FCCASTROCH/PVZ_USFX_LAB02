@@ -39,6 +39,4 @@ public:
 	//Return the member Title. It's pure virtual, so it doesn't need animplementation in this class
 		virtual FString CrewTitle()
 		PURE_VIRTUAL(AStarShipCrewMember::CrewTitle, return "";);
-	virtual void Tick(float DeltaTime) override;
-
 	};
